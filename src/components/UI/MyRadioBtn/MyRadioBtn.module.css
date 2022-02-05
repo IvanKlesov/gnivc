@@ -1,0 +1,17 @@
+.myRadioBtnWrapper {
+    width: 380px;
+
+    margin: 5px auto 25px;
+}
+
+.myRadioBtn {
+    margin: 5px;    
+}
+
+@media screen and (max-width: 400px) {
+    .myRadioBtnWrapper {
+      width: 340px;
+    }  
+
+  }
+

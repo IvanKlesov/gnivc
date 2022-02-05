@@ -1,0 +1,15 @@
+.label {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: #756F86;
+}
+
+@media screen and (max-width: 400px) {
+    .label {
+        font-size: 14px;
+    }  
+
+  }

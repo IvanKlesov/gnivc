@@ -1,0 +1,35 @@
+.h1 {
+	margin: 20px auto;
+
+	font-size: 26px;
+	font-weight: 500;
+	line-height: 35px;
+
+	text-align: center;
+}
+
+.h2 {
+	margin-top: 50px;
+	margin-bottom: 25px;
+
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+.h3 {
+	margin: 10px auto 5px 5px;
+
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 27px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .h1 {
+		font-size: 22px;
+    }  
+
+  }
+
