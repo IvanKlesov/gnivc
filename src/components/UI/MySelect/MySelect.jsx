@@ -8,7 +8,7 @@ export const MySelect = ({options, id, defaultValue, onChange}) => {
             <select id={id} onChange={onChange} className={classes.select}>
                 <option  value="">{defaultValue}</option>
                     {options.map((o,i) => 
-                        <option key={o[i]} value={o}>
+                        <option key={i} value={o}>
                             {o}                           
                         </option>
                     )}
